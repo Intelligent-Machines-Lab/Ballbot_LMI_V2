@@ -1,13 +1,16 @@
 # Ballbot_V2
 
+**Author:** Leandro Ventricci  
+**Advisor:** Prof. Dr. Cairo Lúcio Nascimento Júnior
+
 This repository contains the source code, STL files, and experimental results developed during research on the Ballbot platform as part of the Master of Science program in Systems and Control at the Instituto Tecnológico de Aeronáutica (ITA). The work represents a second iteration and expansion of the initial Ballbot project proposed in the master’s thesis available at [Ballbot_LMI_V1](https://github.com/pedrophj/ballbot_LMI/tree/main).
 
 ## Repository Structure
 
 | Directory | Description |
 |------------|-------------|
-| [**`/Data Bags`**](./Experimental%20Results/Data%20Bags/) | Provides the ROS bag files acquired during the experiments, which contain the recorded ROS topic data used for analysis. |
-| [**`/Videos`**](./Experimental%20Results/Videos/) | Provides video recordings of the experimental results obtained with the Ballbot prototype. The videos are also available online at [Google Drive](https://drive.google.com/drive/folders/1ocQBuRk292TQQt81lqkflchQvDIo9T61?usp=sharing). |
+| [**`/Experimental Results/Data Bags`**](./Experimental%20Results/Data%20Bags/) | Provides the ROS bag files acquired during the experiments, which contain the recorded ROS topic data used for analysis. |
+| [**`/Experimental Results/Videos`**](./Experimental%20Results/Videos/) | Provides video recordings of the experimental results obtained with the Ballbot prototype. The videos are also available online at [Google Drive](https://drive.google.com/drive/folders/1ocQBuRk292TQQt81lqkflchQvDIo9T61?usp=sharing). |
 | [**`/Microcontroller`**](/Microcontroller/src) | Provides the PlatformIO project containing the ESP32 firmware. |
 | [**`/STL`**](/STL/) | Provides the STL files for the mechanical structure of the Ballbot for 3D printing. |
 | [**`/Simulations/2D`**](/Simulations/2D) | Provides the MATLAB simulations for the X–Z and X–Y planar models, used for control design and validation. |
